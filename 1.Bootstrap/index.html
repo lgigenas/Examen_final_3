@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <script src='js/bootstrap.min.js'></script>
+    <title>Blog de Música</title>
+  </head>
+  <body class="blog-body">
+    <header class="cabecera container-fluid">
+      <div class="row cabecera-fila1">
+        <div class='col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center'>
+            <img class='logo-img' src='img/logo.jpg'/>
+        </div>
+        <div class='col-xs-0 col-sm-3 col-md-6 col-lg-6 text-center'></div>
+        <div class='col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center'>
+            <a href="#"><img class='redes-img' src='img/fb.png'/></a>
+            <a href="#"><img class='redes-img' src='img/ig.png'/></a>
+            <a href="#"><img class='redes-img' src='img/tt.png'/></a>
+        </div>
+      </div>
+      <nav>
+        <div class="row">
+          <div>
+            <div class="menu col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center">
+              <a href="#"><h3>Inicio</h3></a>
+            </div>
+            <div class="menu col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center">
+              <a href="#"><h3>Grupos</h3></a>
+            </div>
+            <div class="menu col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center">
+              <a href="#"><h3>Artistas</h3></a>
+            </div>
+            <div class="menu col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center">
+              <a href="#"><h3>Top 10</h3></a>
+            </div>
+            <div class="menu col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center">
+              <a href="#"><h3>Letras</h3></a>
+            </div>
+            <div class="menu col-xs-12 col-sm-2 col-md-2 col-lg-2 text-center">
+              <a href="#"><h3>Acordes</h3></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="cuerpo container-fluid">
+      <div class="contenido col-xs-12 col-sm-8 col-md-8 col-lg-8 text-justify">
+        <div class="articulo1">
+          <h2>U2</h2>
+          <p>
+            U2 es una banda de rock originaria de Dublín (Irlanda), formada en 1976 por Bono (voz), The Edge (guitarra, teclado y voz), Adam Clayton (bajo), y Larry Mullen Jr. (batería). El sonido inicial de U2 tenía sus raíces en el post-punk, pero posteriormente irán incorporando a su música elementos de otros géneros: "Su cancionero es extenso y está repleto de variaciones: desde el rock más clásico hasta el pop más redondo, pasando por el coqueteo con la electrónica o los homenajes al góspel". A lo largo de la búsqueda musical de la banda, han mantenido un sonido construido a base de instrumentales melódicos, destacados por la textura musical de The Edge y la voz expresiva de Bono, a las que se suma una base característica integrada por la batería de Mullen y el bajo de Clayton. Sus letras, a menudo ordenadas con imágenes espirituales, se centran en temas personales y temática de justicia social y paz.
+          </p>
+          <img class='logo-img' src='img/u2.jpg'/>
+          <div class="form-group comentario">
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" rows="8" cols="40" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="articulo2">
+          <h2>The Rolling Stones</h2>
+          <p>
+            The Rolling Stones es una banda británica de rock originaria de Londres. La banda se fundó en abril de 19622​ por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Ian Stewart y Charlie Watts.2​ Brian Jones fue despedido en junio de 1969, falleciendo tres semanas después, siendo reemplazado por el guitarrista Mick Taylor, que dejaría el grupo en 1975 y sería a su vez reemplazado por Ron Wood. Con el retiro de Bill Wyman en 1993 se incluyó al bajista Darryl Jones que, aunque toca con la banda desde la grabación del álbum Voodoo Lounge en 1994, no es un miembro oficial.
+            Son considerados una de las más grandes e influyentes bandas de toda la historia del rock,​ siendo la agrupación que sentó las bases del rock contemporáneo.
+          </p>
+          <img class='logo-img' src='img/trs.jpg'/>
+          <div class="form-group comentario">
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" rows="8" cols="40" class="form-control"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="panel-busqueda col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+        <div class="buscar form-group">
+          <div class=" input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="Buscar" type="text" class="form-control" name="buscar" placeholder="Buscar por...">
+          </div>
+        </div>
+        <div class="opciones text-left">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="" id="check1">
+            <label class="form-check-label" for="check1">Folclore</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="" id="check2">
+            <label class="form-check-label" for="check2">Rock</label>
+
+
+
+
+
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="" id="check3">
+            <label class="form-check-label" for="check3">Pop</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="" id="check4">
+            <label class="form-check-label" for="check4">Punk</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="" id="check5">
+            <label class="form-check-label" for="check5">Hip-Hop</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="" id="check6">
+            <label class="form-check-label" for="check6">Blues</label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
